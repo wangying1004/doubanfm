@@ -1,0 +1,41 @@
+#douban{
+	position: absolute;
+	top: 50px;
+	left:260px;
+}
+#zhongjian{
+	position: absolute;
+	top: 150px;
+
+}
+#liebiao{
+	position: absolute;
+	top: 13px;
+	left: 930px;
+}
+#liebiao a{
+	text-decoration: none;
+}
+#denglu{
+	position: absolute;
+	top: -5px;
+	left: 850px;
+}
+#denglu a{
+	text-decoration: none;
+}
+#fufei{
+	position: relative;
+	top: 20px;
+	left: 800px;
+	display: none;
+}
+#fufei li{
+	list-style-type: none;
+	padding: 10px;
+	border: 1px solid;
+	background-color: #f1f1f1
+}
+#fufei li a{
+	text-decoration: none;
+}
