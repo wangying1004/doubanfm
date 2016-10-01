@@ -62,7 +62,23 @@
 	position: absolute;
 	top: 0px;
 	left: 248px;
-	background-color: white;
+
+}
+#playerfu{
+	position: absolute;
+	top: 0px;
+	left: 248px;
+	background: #000;
+opacity: 0.5;
+filter: alpha(opacity=50);
+display: none;
+}
+#contplay{
+position: absolute;
+top: 120px;
+left: 100px;
+color: red;
+cursor: pointer;
 }
 #play{
 	position: absolute;
@@ -193,15 +209,192 @@
 }
 #box{
 	position: absolute;
-  z-index: 9999;
+  z-index: 100;
   float: left;
-  transition: width 3s;
+  display: none;
 }
-#btn{
+#xzhong{
 	position: absolute;
-	top: 500px;
-	left: 800px;
+	top: 134px;
 }
-#box:hover{
-	width: 100px;
+#xlogo{
+	position: absolute;
+	top: 50px;
+	left: 60px;
 }
+#input{
+	position: absolute;
+	top: 50px;
+	left: 360px;
+	width: 200px;
+	height: 30px;
+}
+#xuan{
+	position: absolute;
+	top: 55px;
+	left: 530px;
+}
+#xuan:hover{
+	cursor: pointer;
+}
+#a{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#b{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#c{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#d{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#e{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#f{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#xta{
+	position: absolute;
+	top: 20px;
+	left:360px;
+}
+#xtaa{
+	position: absolute;
+	top: 20px;
+	left:360px;
+	display: none;
+}
+#xtb{
+	position: absolute;
+	top: 21px;
+	left:380px;
+}
+#xtbb{
+	position: absolute;
+	top: 21px;
+	left:380px;
+	display: none;
+}
+#xtc{
+	position: absolute;
+	top: 21px;
+	left:400px;
+}
+#xtcc{
+	position: absolute;
+	top: 21px;
+	left:400px;
+	display: none;
+}
+#xtd{
+	position: absolute;
+	top: 22px;
+	left:420px;
+}
+#xtdd{
+	position: absolute;
+	top: 22px;
+	left:420px;
+	display: none;
+}
+#xte{
+	position: absolute;
+	top: 21px;
+	left:440px;
+}
+#xtee{
+	position: absolute;
+	top: 21px;
+	left:440px;
+	display: none;
+}
+#xtf{
+	position: absolute;
+	top: 21px;
+	left:460px;
+}
+#xtff{
+	position: absolute;
+	top: 21px;
+	left:460px;
+	display: none;
+}
+#wa{
+	position: absolute;
+	top: 80px;
+	left:360px;
+}
+ a{
+	text-decoration: none;
+}
+#wb{
+	position: absolute;
+	top: 80px;
+	left:360px;
+	display: none;
+}
+#wc{
+	position: absolute;
+	top: 80px;
+	left:360px;
+	display: none;
+}
+#wd{
+	position: absolute;
+	top: 80px;
+	left:360px;
+	display: none;
+}
+#we{
+	position: absolute;
+	top: 80px;
+	left:360px;
+	display: none;
+}
+#wf{
+	position: absolute;
+	top: 80px;
+	left:360px;
+	display: none;
+}
+#xdaohang{
+	position: absolute;
+	top: 480px;
+	left: 48px;
+	font-size: 6px;
+	width:400px;
+	color: grey;
+
+}
+#xdaohang a{
+	padding: 4px;
+}
+
+
+
+
+
