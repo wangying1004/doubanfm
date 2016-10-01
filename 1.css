@@ -34,8 +34,8 @@
 #fufei li{
 	list-style-type: none;
 	padding: 10px;
-	border: 1px solid;
-	background-color: #f1f1f1
+	border: 1px ;
+	background-color: #D8DBE4;
 }
 #fufei li a{
 	text-decoration: none;
@@ -50,6 +50,13 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	
+}
+#zhuanjitu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
 }
 #player{
 	position: absolute;
@@ -87,4 +94,114 @@
 	position: absolute;
     top: 30px;
     left: 10px;
+    
+}
+#gemingtu{
+	position: absolute;
+    top: 30px;
+    left: 10px;
+    display: none;
+}
+#tingge{
+	position: absolute;
+	top: 200px;
+	left: 990px;
+}
+
+#fasong{
+	position: absolute;
+	top: 200px;
+	left: 600px;
+}
+#wenzi{
+	position: absolute;
+	top: 190px;
+	left: 630px;
+	font-size: 6px;
+}
+#wenzi a{
+	text-decoration: none;
+}
+#xiazai{
+	position: absolute;
+	top: 500px;
+	left: 900px;
+}
+#share{
+	position: absolute;
+	top: 250px;
+	left: 1030px;
+	font-size: 5px;
+	color: gray;
+	cursor: pointer;
+}
+#list{
+	position: absolute;
+	top:0px;
+	left: 30px;
+	font-size: 10px;
+	width: 420px;
+	height: 400px;
+	overflow-y: auto;
+}
+
+#listhidden{
+	position: absolute;
+	top:130px;
+	left: 172px;
+	font-size: 10px;
+	width: 400px;
+	height: 380px;
+	overflow:hidden;
+}
+#list li{
+	list-style-type: none;
+	padding: 15px;
+	width: 180px;
+	height: 10px;
+	background-color:rgba(198,211,205,0.5); 
+}
+#list li a{
+	text-decoration: none;
+
+}
+#scg{
+	position: absolute;
+	top: 131px;
+	left: 87px;
+	font-size: 5px;
+	color: grey;
+	border: 1px;
+	padding: 10px;
+	display: none;
+
+}
+#shuiping{
+	position: absolute;
+	top: 183px;
+	left: 115px;
+}
+#sp{
+	position: absolute;
+	top: 234px;
+	left: 115px;
+}
+#spx{
+	position: absolute;
+	top: 550px;
+	left: 115px;
+}
+#box{
+	position: absolute;
+  z-index: 9999;
+  float: left;
+  transition: width 3s;
+}
+#btn{
+	position: absolute;
+	top: 500px;
+	left: 800px;
+}
+#box:hover{
+	width: 100px;
 }
