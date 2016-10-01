@@ -8,4 +8,13 @@
         fufei.style.display='none';
     }
 
+    var shoucang= document.getElementById('shoucang');
+    var like=document.getElementById('like');
+    shoucang.onclick=function(){
+    	like.style.display="block";
+    }
+    like.onclick=function(){
+    	like.style.display="none";
+    }
+
 }(window))
