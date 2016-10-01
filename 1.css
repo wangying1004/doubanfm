@@ -62,6 +62,7 @@
 	position: absolute;
 	top: 0px;
 	left: 248px;
+	background-color: white;
 
 }
 #playerfu{
@@ -78,9 +79,9 @@ position: absolute;
 top: 120px;
 left: 100px;
 color: red;
-cursor: pointer;
+cursor: pointer; 
 }
-#play{
+#play{ 
 	position: absolute;
     top: 1px;
     left: 205px;
@@ -122,6 +123,9 @@ cursor: pointer;
 	position: absolute;
 	top: 200px;
 	left: 990px;
+}
+#tingge:hover{
+    cursor: pointer;
 }
 
 #fasong{
@@ -192,6 +196,30 @@ cursor: pointer;
 	display: none;
 
 }
+#verylike{
+	position: absolute;
+	top: 131px;
+	left: 47px;
+	font-size: 5px;
+	color: grey;
+	border: 1px;
+	padding: 10px;
+	display: none;
+
+}
+#next{
+	position: absolute;
+	top: 131px;
+	left: 177px;
+	font-size: 5px;
+	color: grey;
+	border: 1px;
+	padding: 10px;
+	display: none;
+
+}
+
+
 #shuiping{
 	position: absolute;
 	top: 183px;
@@ -211,7 +239,7 @@ cursor: pointer;
 	position: absolute;
   z-index: 100;
   float: left;
-  display: none;
+  display: block; 
 }
 #xzhong{
 	position: absolute;

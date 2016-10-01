@@ -16,6 +16,12 @@
     like.onclick = function() {
         like.style.display = "none";
     }
+    shoucang.onmouseover=function(){
+    	document.getElementById('verylike').style.display='block';
+    }
+    shoucang.onmouseout=function(){
+    	document.getElementById('verylike').style.display='none';
+    }
 
     var nextplay = document.getElementById('nextplay');
     var gemingtu = document.getElementById('gemingtu');
@@ -29,6 +35,13 @@
             zhuanjitu.style.display = 'block';
         }
 
+    }
+    var nextplay = document.getElementById('nextplay');
+    nextplay.onmouseover = function() {
+        document.getElementById('next').style.display = 'block';
+    }
+    nextplay.onmouseout = function() {
+        document.getElementById('next').style.display = 'none';
     }
     var shanchu = document.getElementById('shanchu');
     shanchu.onmouseover = function() {
