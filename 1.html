@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div>
+    <div id="on">
         <img src="img/1.png" id="douban">
         <div id="yonghu">
             <p id="denglu"><a href="#">王&nbsp莹</a><img src="img/17.png" id="xiala">
@@ -33,18 +33,27 @@
             <img src="img/2.png" id="zhuanji">
             <img src="img/20.png" id="zhuanjitu">
             <div id="player" style="width:248px;height:248px;">
+            <audio src="Super Junior-M - U 1.mp3" autoplay="" id="fristaudio"></audio>
+            <div id="jindu"></div>
+            <div id="jindutiao"></div>
+            <audio src="Super Junior-M - 华丽的独秀 1.mp3" id="nextaudio"></audio>
+            <div id="nextjindu"></div>
+            <div id="nextjindutiao"></div>
                 <img src="img/22.png" id="geming">
                 <img src="img/21.png" id="gemingtu">
                 <img src="img/18.png" id="play">
+                <img src="img/18.png" id="playfu">
                 <img src="img/14.png" id="shoucang">
                 <img src="img/11.png" id="like">
                 <img src="img/12.png" id="shanchu">
                 <img src="img/13.png" id="nextplay">
+                <img src="img/13.png" id="nextplayfu">
                 <p id="scg">不在播放此首歌</p>
                 <p id="verylike">非常喜欢</p>
                 <p id="next">下一首</p>
             </div>
             <div id="playerfu" style="width:248px;height:248px;"><span id="contplay">继续播放</span></div>
+            <div id="playerfus" style="width:248px;height:248px;"><span id="contplays">继续播放</span></div>
         </div>
         <img src="img/4.png" id="tingge">
         <img src="img/10.png" id="fasong">
@@ -101,80 +110,208 @@
             </ul>
         </div>
     </div>
-    <div id="box" style="width:650px;height:700px;background-color:white;">
-        <div>
-            <img src="img/5.png" id="xlogo">
-            <input type="text" name="text" placeholder="搜索兆赫" id="input">
-            <img src="img/input.png" id="xuan">
-        </div>
-        <div id="xzhong" style="width:100%;height:300px;background-color:#F0F7F4">
-            <img src="img/7.png" id="a" style="height:300px">
-            <img src="img/6.png" id="b" style="height:300px">
-            <img src="img/8.png" id="c" style="height:300px">
-            <img src="img/9.png" id="d" style="height:300px">
-            <img src="img/15.png" id="e" style="height:300px">
-            <img src="img/16.png" id="f" style="height:300px">
-            <img src="img/1.jpg" id="xta">
-            <img src="img/1-1.jpg" id="xtaa">
-            <img src="img/2.jpg" id="xtb">
-            <img src="img/2-2.jpg" id="xtbb">
-            <img src="img/3.jpg" id="xtc">
-            <img src="img/3-3.jpg" id="xtcc">
-            <img src="img/4.jpg" id="xtd">
-            <img src="img/4-4.jpg" id="xtdd">
-            <img src="img/5.jpg" id="xte">
-            <img src="img/5-5.jpg" id="xtee">
-            <img src="img/6.jpg" id="xtf">
-            <img src="img/6-6.jpg" id="xtff">
-            <div id="wa"><img src="img/wa.png">
-                <p>为你推荐 Pinknruby 以及相似的艺术家</p>
-                <p><a href="#">兆赫详情</a></p>
+    <div id="bigbox">
+        <div id="box" style="width:650px;height:100%;background-color:white;">
+            <div>
+                <img src="img/5.png" id="xlogo">
+                <input type="text" name="text" placeholder="搜索兆赫" id="input">
+                <img src="img/input.png" id="xuan">
             </div>
-            <div id="wb"><img src="img/wb.png">
-                <p>为你推荐 Meredith Monk 以及相似的艺术家
-                    <br>热门歌曲：Balam Seni / Insomnia</p>
-                <p><a href="#">兆赫详情</a></p>
+            <div id="xzhong" style="width:100%;height:300px;background-color:#F0F7F4">
+                <img src="img/7.png" id="a" style="height:300px">
+                <img src="img/6.png" id="b" style="height:300px">
+                <img src="img/8.png" id="c" style="height:300px">
+                <img src="img/9.png" id="d" style="height:300px">
+                <img src="img/15.png" id="e" style="height:300px">
+                <img src="img/16.png" id="f" style="height:300px">
+                <img src="img/1.jpg" id="xta">
+                <img src="img/1-1.jpg" id="xtaa">
+                <img src="img/2.jpg" id="xtb">
+                <img src="img/2-2.jpg" id="xtbb">
+                <img src="img/3.jpg" id="xtc">
+                <img src="img/3-3.jpg" id="xtcc">
+                <img src="img/4.jpg" id="xtd">
+                <img src="img/4-4.jpg" id="xtdd">
+                <img src="img/5.jpg" id="xte">
+                <img src="img/5-5.jpg" id="xtee">
+                <img src="img/6.jpg" id="xtf">
+                <img src="img/6-6.jpg" id="xtff">
+                <div id="wa"><img src="img/wa.png">
+                    <p>为你推荐 Pinknruby 以及相似的艺术家</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
+                <div id="wb"><img src="img/wb.png">
+                    <p>为你推荐 Meredith Monk 以及相似的艺术家
+                        <br>热门歌曲：Balam Seni / Insomnia</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
+                <div id="wc"><img src="img/wc.png">
+                    <p>为你推荐 BT 以及相似的艺术家</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
+                <div id="wd"><img src="img/wd.png">
+                    <p>为你推荐 Versailles 以及相似的艺术家</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
+                <div id="we"><img src="img/we.png">
+                    <p>热门歌曲：夜空中最亮的星 / 最初的梦想（Cover 范玮琪） / 一万次悲伤</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
+                <div id="wf"> <img src="img/wf.png">
+                    <p>为你推荐 Meredith Monk 以及相似的艺术家</p>
+                    <p><a href="#">兆赫详情</a></p>
+                </div>
             </div>
-            <div id="wc"><img src="img/wc.png">
-                <p>为你推荐 BT 以及相似的艺术家</p>
-                <p><a href="#">兆赫详情</a></p>
+            <div>
+                <nav id="xdaohang">
+                    <a href="#">摇滚</a>|
+                    <a href="#">古典</a>|
+                    <a href="#">现代</a>|
+                    <a href="#">爵士</a>|
+                    <a href="#">民谣/乡村</a>|
+                    <a href="#">流行</a>|
+                    <a href="#">电子</a>|
+                    <a href="#">原声配乐</a>|
+                    <a href="#">轻音乐</a>|
+                    <a href="#">说唱</a>|
+                    <a href="#">雷鬼</a>|
+                    <a href="#">拉丁</a>|
+                    <a href="#">世界音乐</a>|
+                    <a href="#">布鲁斯</a>|
+                </nav>
             </div>
-            <div id="wd"><img src="img/wd.png">
-                <p>为你推荐 Versailles 以及相似的艺术家</p>
-                <p><a href="#">兆赫详情</a></p>
+            <p id="biaoti">热门兆赫</p>
+            <div id="liebiao1" style="width:180px;height:50px">
+                <div id="li-tu1"><img src="img/lia.png"></div>
+                <p id="li-p1" class="class">华语MHz</p>
+                <p id="li-pa" class="num">1189首歌曲</p>
+                <p id="li-pA" class="zhao"><a href="#">兆赫详情</a></p>
             </div>
-            <div id="we"><img src="img/we.png">
-                <p>热门歌曲：夜空中最亮的星 / 最初的梦想（Cover 范玮琪） / 一万次悲伤</p>
-                <p><a href="#">兆赫详情</a></p>
+            <div id="liebiao2" style="width:180px;height:50px">
+                <div id="li-tu2"><img src="img/lic.png"></div>
+                <p id="li-p2" class="class">欧美MHz</p>
+                <p id="li-pb" class="num">3599首歌曲</p>
+                <p id="li-pB" class="zhao"><a href="#">兆赫详情</a></p>
             </div>
-            <div id="wf"> <img src="img/wf.png">
-                <p>为你推荐 Meredith Monk 以及相似的艺术家</p>
-                <p><a href="#">兆赫详情</a></p>
+            <div id="liebiao3" style="width:180px;height:50px">
+                <div id="li-tu3"><img src="img/lid.png"></div>
+                <p id="li-p3" class="class">八零MHz</p>
+                <p id="li-pc" class="num">883首歌曲</p>
+                <p id="li-pC" class="zhao"><a href="#">兆赫详情</a></p>
             </div>
-        </div>
-        <div>
-             <nav id="xdaohang">
-                 <a href="#">摇滚</a>|
-                 <a href="#">古典</a>|
-                 <a href="#">现代</a>|
-                 <a href="#">爵士</a>|
-                 <a href="#">民谣/乡村</a>|
-                 <a href="#">流行</a>|
-                 <a href="#">电子</a>|
-                 <a href="#">原声配乐</a>|
-                 <a href="#">轻音乐</a>|
-                 <a href="#">说唱</a>|
-                 <a href="#">雷鬼</a>|
-                 <a href="#">拉丁</a>|
-                 <a href="#">世界音乐</a>|
-                 <a href="#">布鲁斯</a>|
-
-             </nav>
-
-
-
+            <div id="liebiao4" style="width:180px;height:50px">
+                <div id="li-tu4"><img src="img/lie.png"></div>
+                <p id="li-p4" class="class">工作学习MHz</p>
+                <p id="li-pd" class="num">3599首歌曲</p>
+                <p id="li-pD" class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao5" style="width:180px;height:50px">
+                <div id="li-tu5"><img src="img/lif.png"></div>
+                <p id="li-p5" class="class">粤语MHz</p>
+                <p id="li-pe" class="num">2704首歌曲</p>
+                <p id="li-pE" class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao6" style="width:180px;height:50px">
+                <div id="li-tu6"><img src="img/lig.png"></div>
+                <p id="li-p6" class="class">轻音乐MHz</p>
+                <p id="li-pf" class="num">2736首歌曲</p>
+                <p id="li-pF" class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao7" style="width:180px;height:50px">
+                <div id="li-tu7"><img src="img/lih.png"></div>
+                <p id="li-p7" class="class">咖啡MHz</p>
+                <p id="li-pg" class="num">1710首歌曲</p>
+                <p id="li-pG" class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao8" style="width:220px;height:50px">
+                <div id="li-tu8"><img src="img/lii.png"></div>
+                <p class="class">你的歌词我的故事MHz</p>
+                <p class="num">588首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao9" style="width:220px;height:50px">
+                <div id="li-tu9"><img src="img/lij.png"></div>
+                <p class="class">看书浇花晒太阳MHz</p>
+                <p class="num">1228首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiao10" style="width:180px;height:50px">
+                <div id="li-tu10"><img src="img/lik.png"></div>
+                <p class="class">爵士MHz</p>
+                <p class="num">4163首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <p id="secontb">上升最快</p>
+            <div id="liebiaoA" style="width:180px;height:50px">
+                <div id="li-tu11"><img src="img/lil.png"></div>
+                <p class="class">工作学习MHz</p>
+                <p class="num">1189首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoB" style="width:180px;height:50px">
+                <div id="li-tu12"><img src="img/lim.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoC" style="width:180px;height:50px">
+                <div id="li-tu13"><img src="img/lin.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoD" style="width:180px;height:50px">
+                <div id="li-tu14"><img src="img/lio.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoE" style="width:180px;height:50px">
+                <div id="li-tu15"><img src="img/lip.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoF" style="width:180px;height:50px">
+                <div id="li-tu16"><img src="img/liq.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoG" style="width:180px;height:50px">
+                <div id="li-tu17"><img src="img/lir.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoH" style="width:180px;height:50px">
+                <div id="li-tu18"><img src="img/lis.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoI" style="width:180px;height:50px">
+                <div id="li-tu19"><img src="img/lit.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <div id="liebiaoJ" style="width:180px;height:50px">
+                <div id="li-tu20"><img src="img/lik.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
+            <p id="third">热门兆赫</p>
+            <div id="liebiaoZ" style="width:180px;height:50px">
+                <div id="li-tu21"><img src="img/liu.png"></div>
+                <p class="class">欧美MHz</p>
+                <p class="num">3599首歌曲</p>
+                <p class="zhao"><a href="#">兆赫详情</a></p>
+            </div>
         </div>
     </div>
+   <!--  <div id="btn"><img src="img/tbtn.png" id="tbtn"></div> -->
 </body>
 
 </html>
