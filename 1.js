@@ -145,21 +145,18 @@
     var contplays=document.getElementById('contplays');
     contplays.onclick=function(){
     	document.getElementById('playerfus').style.display='none';
-    	 nextaudio.play();
+    	 fristaudio.play();
     }
-    /* var box=document.getElementById('box');
-    var btn = document.getElementById('tbtn');
-   
+     var box=document.getElementById('box');
+     var bigbox=document.getElementById('bigbox');
+    var tbtn = document.getElementById('tbtn');
+    var ntbtn = document.getElementById('ntbtn');
     tbtn.onclick=function(){
-    	if (box.style.display=='none') {
-    		box.style.display='block';
-
-    	}else {
-    		box.style.display='none';
-    		var x=10;
-    		btn.style.width-=x;
-    	}
-    }*/
+    	bigbox.style.left ='0px';
+    }
+     ntbtn.onclick=function(){
+    	bigbox.style.left ='-675px';
+    }
     var xta =document.getElementById('xta');
     var xtaa =document.getElementById('xtaa');
     var xtb =document.getElementById('xtb');
