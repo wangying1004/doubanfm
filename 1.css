@@ -75,7 +75,7 @@ opacity: 0.5;
 filter: alpha(opacity=50);
 display: none;
 }
-#playerfu{
+#playerfus{
 	position: absolute;
 	top: 0px;
 	left: 248px;
@@ -85,6 +85,14 @@ filter: alpha(opacity=50);
 display: none;
 }
 #contplay{
+position: absolute;
+top: 120px;
+left: 100px;
+color: red;
+cursor: pointer; 
+}
+
+#contplays{
 position: absolute;
 top: 120px;
 left: 100px;
@@ -172,7 +180,7 @@ cursor: pointer;
 #share{
 	position: absolute;
 	top: 250px;
-	left: 1030px;
+	left: 900px;
 	font-size: 5px;
 	color: gray;
 	cursor: pointer;
@@ -665,4 +673,9 @@ cursor: pointer;
 	height: 3px;
 	background-color: blue;
 	display: none;
+}
+#dilan{
+	position: absolute;
+	top: 570px;
+	left: 150px;
 }

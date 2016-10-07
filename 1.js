@@ -68,6 +68,7 @@
     var gemingtu = document.getElementById('gemingtu');
     var zhuanjitu = document.getElementById('zhuanjitu');
     var playfu= document.getElementById('playfu');
+    var playfus= document.getElementById('playfus');
     var nextplayfu=document.getElementById('nextplayfu');
     nextplay.onclick = function() {
         if (gemingtu.style.display == 'block' && zhuanjitu.style.display == 'block'&&nextaudio.play()&&nextjindu.style.display=="block"&&nextjindutiao.style.display=="block"&&playfu.style.display=='block'&&nextplayfu.style.display=='block') {
@@ -113,7 +114,6 @@
         }
 
     }
-    var nextplay = document.getElementById('nextplay');
     nextplay.onmouseover = function() {
         document.getElementById('next').style.display = 'block';
     }
