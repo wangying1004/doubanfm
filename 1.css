@@ -1,681 +1,770 @@
-
-#douban{
-	position: absolute;
-	top: 50px;
-	left:220px;
-}
-#zhongjian{
-	position: absolute;
-	top: 150px;
-
-}
-#liebiao{
-	position: absolute;
-	top: 13px;
-	left: 930px;
-}
-#liebiao a{
-	text-decoration: none;
-}
-#denglu{
-	position: absolute;
-	top: -5px;
-	left: 850px;
-}
-#denglu a{
-	text-decoration: none;
-}
-#fufei{
-	position: relative;
-	top: 20px;
-	left: 800px;
-	display: none;
-	z-index: 100;
-}
-#fufei li{
-	list-style-type: none;
-	padding: 10px;
-	border: 1px ;
-	background-color: #D8DBE4;
-}
-#fufei li a{
-	text-decoration: none;
-}
-#autoplay{
-	position: absolute;
-	top: -80px;
-	left: 600px;
-	box-shadow: 10px,10px,5px,10px #ccc;
-}
-#zhuanji{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	
-}
-#zhuanjitu{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	display: none;
-}
-#player{
-	position: absolute;
-	top: 0px;
-	left: 248px;
-	background-color: white;
-
-}
-#playerfu{
-	position: absolute;
-	top: 0px;
-	left: 248px;
-	background: #000;
-opacity: 0.5;
-filter: alpha(opacity=50);
-display: none;
-}
-#playerfus{
-	position: absolute;
-	top: 0px;
-	left: 248px;
-	background: #000;
-opacity: 0.5;
-filter: alpha(opacity=50);
-display: none;
-}
-#contplay{
-position: absolute;
-top: 120px;
-left: 100px;
-color: red;
-cursor: pointer; 
+#douban {
+    position: absolute;
+    top: 50px;
+    left: 220px;
 }
 
-#contplays{
-position: absolute;
-top: 120px;
-left: 100px;
-color: red;
-cursor: pointer; 
+#zhongjian {
+    position: absolute;
+    top: 150px;
 }
-#play{ 
-	position: absolute;
-    top: 1px;
-    left: 205px;
+
+#liebiao {
+    position: absolute;
+    top: 13px;
+    left: 930px;
 }
-#playfu{ 
-	position: absolute;
-    top: 1px;
-    left: 205px;
+
+#liebiao a {
+    text-decoration: none;
+}
+
+#denglu {
+    position: absolute;
+    top: -5px;
+    left: 850px;
+}
+
+#denglu a {
+    text-decoration: none;
+}
+
+#fufei {
+    position: relative;
+    top: 20px;
+    left: 800px;
+    display: none;
+    z-index: 100;
+}
+
+#fufei li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px;
+    background-color: #D8DBE4;
+}
+
+#fufei li a {
+    text-decoration: none;
+}
+
+#autoplay {
+    position: absolute;
+    top: -80px;
+    left: 600px;
+    box-shadow: 10px, 10px, 5px, 10px #ccc;
+}
+
+#zhuanji {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#zhuanjitu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     display: none;
 }
-#shoucang{
-	position: absolute;
-    top: 180px;
-    left: 70px;
+
+#player {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background-color: white;
 }
-#like{
-	position: absolute;
-    top: 180px;
-    left: 70px;
+
+#playerfu {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     display: none;
 }
-#shanchu{
-	position: absolute;
-    top: 180px;
-    left: 120px;
-}
-#nextplay{
-	position: absolute;
-    top: 180px;
-    left: 190px;
-}
-#nextplayfu{
-	position: absolute;
-    top: 180px;
-    left: 190px;
+
+#playerfus {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     display: none;
 }
-#geming{
-	position: absolute;
-    top: 30px;
-    left: 10px;
-    
-}
-#gemingtu{
-	position: absolute;
-    top: 30px;
-    left: 10px;
-    display: none;
-}
-#tingge{
-	position: absolute;
-	top: 200px;
-	left: 990px;
-}
-#tingge:hover{
+
+#contplay {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: red;
     cursor: pointer;
 }
 
-#fasong{
-	position: absolute;
-	top: 200px;
-	left: 600px;
-}
-#wenzi{
-	position: absolute;
-	top: 190px;
-	left: 630px;
-	font-size: 6px;
-}
-#wenzi a{
-	text-decoration: none;
-}
-#xiazai{
-	position: absolute;
-	top: 500px;
-	left: 900px;
-}
-#share{
-	position: absolute;
-	top: 250px;
-	left: 900px;
-	font-size: 5px;
-	color: gray;
-	cursor: pointer;
-}
-#list{
-	position: absolute;
-	top:0px;
-	left: 30px;
-	font-size: 10px;
-	width: 420px;
-	height: 400px;
-	overflow-y: auto;
+#contplays {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: red;
+    cursor: pointer;
 }
 
-#listhidden{
-	position: absolute;
-	top:130px;
-	left: 172px;
-	font-size: 10px;
-	width: 400px;
-	height: 370px;
-	overflow:hidden;
-}
-#list li{
-	list-style-type: none;
-	padding: 15px;
-	width: 180px;
-	height: 10px;
-	background-color:rgba(198,211,205,0.5); 
-}
-#list li a{
-	text-decoration: none;
-
-}
-#scg{
-	position: absolute;
-	top: 131px;
-	left: 87px;
-	font-size: 5px;
-	color: grey;
-	border: 1px;
-	padding: 10px;
-	display: none;
-
-}
-#verylike{
-	position: absolute;
-	top: 131px;
-	left: 47px;
-	font-size: 5px;
-	color: grey;
-	border: 1px;
-	padding: 10px;
-	display: none;
-
-}
-#next{
-	position: absolute;
-	top: 131px;
-	left: 177px;
-	font-size: 5px;
-	color: grey;
-	border: 1px;
-	padding: 10px;
-	display: none;
-
+#play {
+    position: absolute;
+    top: 1px;
+    left: 205px;
 }
 
-
-#shuiping{
-	position: absolute;
-	top: 183px;
-	left: 115px;
-}
-#sp{
-	position: absolute;
-	top: 234px;
-	left: 115px;
-}
-#spx{
-	position: absolute;
-	top: 550px;
-	left: 115px;
-}
-#bigbox{
-	display: block;
-	width: 650px;
-	height: 670px;
-	position: absolute;
-  overflow: hidden;
-  left: -675px;
-  transition: 3s;
-  z-index: 100;
-}
-#box{
-	position: absolute;
-  z-index: 100;
-  display: block;
-  overflow-y:auto;
-}
-#xzhong{
-	position: absolute;
-	top: 134px;
-}
-#xlogo{
-	position: absolute;
-	top: 50px;
-	left: 60px;
-}
-#input{
-	position: absolute;
-	top: 50px;
-	left: 360px;
-	width: 200px;
-	height: 30px;
-}
-#xuan{
-	position: absolute;
-	top: 55px;
-	left: 530px;
-}
-#xuan:hover{
-	cursor: pointer;
-}
-#a{
-	position: absolute;
-	top: 0;
-	left: 0;
+#playfu {
+    position: absolute;
+    top: 1px;
+    left: 205px;
+    display: none;
 }
 
-#b{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
+#shoucang {
+    position: absolute;
+    top: 180px;
+    left: 70px;
 }
 
-#c{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
+#like {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    display: none;
 }
 
-#d{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
+#shanchu {
+    position: absolute;
+    top: 180px;
+    left: 120px;
 }
 
-#e{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
+#nextplay {
+    position: absolute;
+    top: 180px;
+    left: 190px;
 }
 
-#f{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: none;
-}
-#xta{
-	position: absolute;
-	top: 20px;
-	left:360px;
-}
-#xtaa{
-	position: absolute;
-	top: 20px;
-	left:361px;
-	display: none;
-}
-#xtb{
-	position: absolute;
-	top: 21px;
-	left:380px;
-}
-#xtbb{
-	position: absolute;
-	top: 20px;
-	left:380px;
-	display: none;
-}
-#xtc{
-	position: absolute;
-	top: 21px;
-	left:400px;
-}
-#xtcc{
-	position: absolute;
-	top: 21px;
-	left:400px;
-	display: none;
-}
-#xtd{
-	position: absolute;
-	top: 22px;
-	left:420px;
-}
-#xtdd{
-	position: absolute;
-	top: 22px;
-	left:420px;
-	display: none;
-}
-#xte{
-	position: absolute;
-	top: 21px;
-	left:440px;
-}
-#xtee{
-	position: absolute;
-	top: 21px;
-	left:440px;
-	display: none;
-}
-#xtf{
-	position: absolute;
-	top: 21px;
-	left:460px;
-}
-#xtff{
-	position: absolute;
-	top: 22px;
-	left:459px;
-	display: none;
-}
-#wa{
-	position: absolute;
-	top: 80px;
-	left:330px;
-}
- a{
-	text-decoration: none;
-}
-#wb{
-	position: absolute;
-	top: 80px;
-	left:330px;
-	display: none;
-}
-#wc{
-	position: absolute;
-	top: 80px;
-	left:330px;
-	display: none;
-}
-#wd{
-	position: absolute;
-	top: 80px;
-	left:330px;
-	display: none;
-}
-#we{
-	position: absolute;
-	top: 80px;
-	left:330px;
-	display: none;
-}
-#wf{
-	position: absolute;
-	top: 80px;
-	left:330px;
-	display: none;
-}
-#xdaohang{
-	position: absolute;
-	top: 480px;
-	left: 48px;
-	font-size: 6px;
-	width:400px;
-	color: grey;
-
-}
-#xdaohang a{
-	padding: 4px;
-}
-#liebiao1{
-	position: absolute;
-	top: 580px;
-	left: 50px;
-}
-#biaoti{
-	position: absolute;
-	top: 530px;
-	left: 50px;
-}
-.class{
-	position: absolute;
-	top: -5px;
-	left: 60px;
-	font-size: 15px;
-}
-.num{
-	position: absolute;
-	top: 20px;
-	left: 60px;
-	font-size: 10px;
-	color: grey;
-}
-.zhao{
-	position: absolute;
-	top: 20px;
-	left: 125px;
-	font-size: 10px;
-	color: grey;
-}
-#liebiao2{
-	position: absolute;
-	top: 580px;
-	left: 350px;
-}
-#liebiao3{
-	position: absolute;
-	top: 650px;
-	left: 50px;
-}
-#liebiao4{
-	position: absolute;
-	top: 650px;
-	left: 350px;
-}
-#liebiao5{
-	position: absolute;
-	top: 720px;
-	left: 50px;
-}
-#liebiao6{
-	position: absolute;
-	top: 720px;
-	left: 350px;
-}
-#liebiao7{
-	position: absolute;
-	top: 790px;
-	left: 50px;
-}
-#liebiao8{
-	position: absolute;
-	top: 790px;
-	left: 350px;
-}
-#liebiao9{
-	position: absolute;
-	top: 860px;
-	left: 50px;
-}
-#liebiao10{
-	position: absolute;
-	top: 860px;
-	left: 350px;
-}
-#secontb{
-	position: absolute;
-	top: 920px;
-	left: 50px;
-}
-#liebiaoA{
-	position: absolute;
-	top:970px;
-	left: 50px;
-}
-#liebiaoB{
-	position: absolute;
-	top: 970px;
-	left: 350px;
-}
-#liebiaoC{
-	position: absolute;
-	top: 1040px;
-	left: 50px;
-}
-#liebiaoD{
-	position: absolute;
-	top: 1040px;
-	left: 350px;
-}
-#liebiaoE{
-	position: absolute;
-	top: 1110px;
-	left: 50px;
-}
-#liebiaoF{
-	position: absolute;
-	top: 1110px;
-	left: 350px;
-}
-#liebiaoG{
-	position: absolute;
-	top: 1180px;
-	left: 50px;
-}
-#liebiaoH{
-	position: absolute;
-	top: 1180px;
-	left: 350px;
-}
-#liebiaoI{
-	position: absolute;
-	top: 1250px;
-	left: 50px;
-}
-#liebiaoJ{
-	position: absolute;
-	top: 1250px;
-	left: 350px;
-}
-#third{
-	position: absolute;
-	top: 1300px;
-	left: 50px;
-}
-#liebiaoZ{
-	position: absolute;
-	top: 1340px;
-	left: 50px;
-}
-#btn{
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	width:20px;
-	height:100%;
-	background-color: #f1f1f1; 
-
-}
-#tbtn{
-	position: absolute;
-	top: 280px;
-	left: 8px;
-}
-#ntbtn{
-	position: absolute;
-	top: 268px;
-	left: 628px;
-}
-#fristaudio{
-	position: absolute;
-	top: 20px;
-	left: 300px;
-	width: 230px;
-	height: 3px;
+#nextplayfu {
+    position: absolute;
+    top: 180px;
+    left: 190px;
+    display: none;
 }
 
-#jindu{
-	position: absolute;
-	top: 130px;
-	left: 10px;
-	width: 230px;
-	height: 3px;
-	background-color: grey;
-	display: block;
-}
-#jindutiao{
-	position: absolute;
-	top: 130px;
-	left: 10px;
-	width: 230px;
-	height: 3px;
-	background-color: blue;
+#geming {
+    position: absolute;
+    top: 30px;
+    left: 10px;
 }
 
-#nextaudio{
-	position: absolute;
-	top: 20px;
-	left: 300px;
-	width: 230px;
-	height: 3px;
-	display: none;
+#gemingtu {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: none;
 }
 
-#nextjindu{
-	position: absolute;
-	top: 130px;
-	left: 10px;
-	width: 230px;
-	height: 3px;
-	background-color: grey;
-	display: block;
-	display: none;
+#tingge {
+    position: absolute;
+    top: 200px;
+    left: 990px;
 }
-#nextjindutiao{
-	position: absolute;
-	top: 130px;
-	left: 10px;
-	width: 230px;
-	height: 3px;
-	background-color: blue;
-	display: none;
+
+#tingge:hover {
+    cursor: pointer;
 }
-#dilan{
-	position: absolute;
-	top: 570px;
-	left: 150px;
+
+#fasong {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+#wenzi {
+    position: absolute;
+    top: 190px;
+    left: 630px;
+    font-size: 6px;
+}
+
+#wenzi a {
+    text-decoration: none;
+}
+
+#xiazai {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+
+#share {
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    font-size: 5px;
+    color: gray;
+    cursor: pointer;
+}
+
+#list {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-size: 10px;
+    width: 420px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#listhidden {
+    position: absolute;
+    top: 130px;
+    left: 172px;
+    font-size: 10px;
+    width: 400px;
+    height: 370px;
+    overflow: hidden;
+}
+
+#list li {
+    list-style-type: none;
+    padding: 15px;
+    width: 180px;
+    height: 10px;
+    background-color: rgba(198, 211, 205, 0.5);
+}
+
+#list li a {
+    text-decoration: none;
+}
+
+#scg {
+    position: absolute;
+    top: 131px;
+    left: 87px;
+    font-size: 5px;
+    color: grey;
+    border: 1px;
+    padding: 10px;
+    display: none;
+}
+
+#verylike {
+    position: absolute;
+    top: 131px;
+    left: 47px;
+    font-size: 5px;
+    color: grey;
+    border: 1px;
+    padding: 10px;
+    display: none;
+}
+
+#next {
+    position: absolute;
+    top: 131px;
+    left: 177px;
+    font-size: 5px;
+    color: grey;
+    border: 1px;
+    padding: 10px;
+    display: none;
+}
+
+#shuiping {
+    position: absolute;
+    top: 187px;
+    left: 115px;
+}
+
+#sp {
+    position: absolute;
+    top: 242px;
+    left: 115px;
+}
+
+#spx {
+    position: absolute;
+    top: 567px;
+    left: 115px;
+}
+
+#bigbox {
+    display: block;
+    width: 650px;
+    height: 670px;
+    position: absolute;
+    overflow: hidden;
+    left: -675px;
+    transition: 3s;
+    z-index: 100;
+}
+
+#box {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    overflow-y: auto;
+}
+
+#xzhong {
+    position: absolute;
+    top: 134px;
+}
+
+#xlogo {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+#input {
+    position: absolute;
+    top: 50px;
+    left: 360px;
+    width: 200px;
+    height: 30px;
+}
+
+#xuan {
+    position: absolute;
+    top: 55px;
+    left: 530px;
+}
+
+#xuan:hover {
+    cursor: pointer;
+}
+
+#a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#c {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#d {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#e {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#f {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#xta {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+}
+
+#xtaa {
+    position: absolute;
+    top: 20px;
+    left: 361px;
+    display: none;
+}
+
+#xtb {
+    position: absolute;
+    top: 21px;
+    left: 380px;
+}
+
+#xtbb {
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    display: none;
+}
+
+#xtc {
+    position: absolute;
+    top: 21px;
+    left: 400px;
+}
+
+#xtcc {
+    position: absolute;
+    top: 21px;
+    left: 400px;
+    display: none;
+}
+
+#xtd {
+    position: absolute;
+    top: 22px;
+    left: 420px;
+}
+
+#xtdd {
+    position: absolute;
+    top: 22px;
+    left: 420px;
+    display: none;
+}
+
+#xte {
+    position: absolute;
+    top: 21px;
+    left: 440px;
+}
+
+#xtee {
+    position: absolute;
+    top: 21px;
+    left: 440px;
+    display: none;
+}
+
+#xtf {
+    position: absolute;
+    top: 21px;
+    left: 460px;
+}
+
+#xtff {
+    position: absolute;
+    top: 22px;
+    left: 459px;
+    display: none;
+}
+
+#wa {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wb {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    display: none;
+}
+
+#wc {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    display: none;
+}
+
+#wd {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    display: none;
+}
+
+#we {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    display: none;
+}
+
+#wf {
+    position: absolute;
+    top: 80px;
+    left: 330px;
+    display: none;
+}
+
+#xdaohang {
+    position: absolute;
+    top: 480px;
+    left: 48px;
+    font-size: 6px;
+    width: 400px;
+    color: grey;
+}
+
+#xdaohang a {
+    padding: 4px;
+}
+
+#liebiao1 {
+    position: absolute;
+    top: 580px;
+    left: 50px;
+}
+
+#biaoti {
+    position: absolute;
+    top: 530px;
+    left: 50px;
+}
+
+.class {
+    position: absolute;
+    top: -5px;
+    left: 60px;
+    font-size: 15px;
+}
+
+.num {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 10px;
+    color: grey;
+}
+
+.zhao {
+    position: absolute;
+    top: 20px;
+    left: 125px;
+    font-size: 10px;
+    color: grey;
+}
+
+#liebiao2 {
+    position: absolute;
+    top: 580px;
+    left: 350px;
+}
+
+#liebiao3 {
+    position: absolute;
+    top: 650px;
+    left: 50px;
+}
+
+#liebiao4 {
+    position: absolute;
+    top: 650px;
+    left: 350px;
+}
+
+#liebiao5 {
+    position: absolute;
+    top: 720px;
+    left: 50px;
+}
+
+#liebiao6 {
+    position: absolute;
+    top: 720px;
+    left: 350px;
+}
+
+#liebiao7 {
+    position: absolute;
+    top: 790px;
+    left: 50px;
+}
+
+#liebiao8 {
+    position: absolute;
+    top: 790px;
+    left: 350px;
+}
+
+#liebiao9 {
+    position: absolute;
+    top: 860px;
+    left: 50px;
+}
+
+#liebiao10 {
+    position: absolute;
+    top: 860px;
+    left: 350px;
+}
+
+#secontb {
+    position: absolute;
+    top: 920px;
+    left: 50px;
+}
+
+#liebiaoA {
+    position: absolute;
+    top: 970px;
+    left: 50px;
+}
+
+#liebiaoB {
+    position: absolute;
+    top: 970px;
+    left: 350px;
+}
+
+#liebiaoC {
+    position: absolute;
+    top: 1040px;
+    left: 50px;
+}
+
+#liebiaoD {
+    position: absolute;
+    top: 1040px;
+    left: 350px;
+}
+
+#liebiaoE {
+    position: absolute;
+    top: 1110px;
+    left: 50px;
+}
+
+#liebiaoF {
+    position: absolute;
+    top: 1110px;
+    left: 350px;
+}
+
+#liebiaoG {
+    position: absolute;
+    top: 1180px;
+    left: 50px;
+}
+
+#liebiaoH {
+    position: absolute;
+    top: 1180px;
+    left: 350px;
+}
+
+#liebiaoI {
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+}
+
+#liebiaoJ {
+    position: absolute;
+    top: 1250px;
+    left: 350px;
+}
+
+#third {
+    position: absolute;
+    top: 1300px;
+    left: 50px;
+}
+
+#liebiaoZ {
+    position: absolute;
+    top: 1340px;
+    left: 50px;
+}
+
+#btn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+#tbtn {
+    position: absolute;
+    top: 280px;
+    left: 8px;
+}
+
+#ntbtn {
+    position: absolute;
+    top: 268px;
+    left: 628px;
+}
+
+#fristaudio {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 230px;
+    height: 3px;
+}
+
+#jindu {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 230px;
+    height: 3px;
+    background-color: grey;
+    display: block;
+}
+
+#jindutiao {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 230px;
+    height: 3px;
+    background-color: blue;
+}
+
+#nextaudio {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 230px;
+    height: 3px;
+    display: none;
+}
+
+#nextjindu {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 230px;
+    height: 3px;
+    background-color: grey;
+    display: block;
+    display: none;
+}
+
+#nextjindutiao {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 230px;
+    height: 3px;
+    background-color: blue;
+    display: none;
+}
+
+#dilan {
+    position: absolute;
+    top: 570px;
+    left: 150px;
 }
